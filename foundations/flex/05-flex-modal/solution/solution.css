@@ -11,8 +11,7 @@ body {
   color: #333;
   /* I'll give you this one for free */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .modal {
