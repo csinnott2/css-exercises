@@ -67,3 +67,42 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.modal{
+    display: flex;
+    gap: 16px;
+    margin: 15px;
+
+}
+
+.text{
+  margin-bottom: 16px;
+}
+.holder {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+.header{
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.icon{
+  margin: 15px;
+  flex-shrink: 0;
+}
+.continue, .cancel{
+  display: flex;
+  justify-content: center;
+  max-width: 75px;
+}
+
+.nextguys{
+  display: flex;
+  max-height: 30px;
+}
